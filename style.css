@@ -1,0 +1,52 @@
+.video-preview{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+
+.thumbnail-img {
+  width: 100%;
+}
+
+.video-title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 0;
+  
+}
+
+.video-author, .video-stats {
+  font-size: 16px;
+  color: rgb(96, 96, 96);
+  margin-top: 0;
+}
+
+.video-author {
+  margin-bottom: 1px;
+}
+
+
+.channel-img {
+  width: 40px;
+  border-radius: 50px;
+}
+
+.video-info-flex {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  
+  
+}
+
+.channel-picture {
+  /* background-color: grey; */
+}
+
+.video-info{
+  /* background-color: grey; */
+}
+
